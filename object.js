@@ -50,8 +50,8 @@
 
 
 // let tinderUser =new Object()
-
 // let tinderUser ={}
+
 
 // tinderUser.name = "123abc"
 // tinderUser.isloggedIn = false
@@ -60,13 +60,44 @@
 
 
 
-let user = {
-    email:"bilal@hotmail.com",
-    fullname:{
+// let user = {
+//     email:"bilal@hotmail.com",
+//     fullname:{
 
-        firstname: "bilal",
-        lestname: "kahn",
-    }
+//         firstname: "bilal",
+//         lestname: "kahn",
+//     }
+// }
+
+// console.log(user.email);
+
+// let obj1 = {1:"a",  2:"b", 3:"c"}
+// let obj2 = {4:"d",  5:"e", 6:"f"}
+// let obj3 = {7:"g",  8:"h", 9:"I"}
+
+
+// console.log(Object.assign({},obj1,obj2,obj3));
+
+
+// const obj = {...obj1,...obj2}
+
+// console.log(obj);
+
+
+
+
+
+let obj33 = {
+    name:"usman",
+    age:19,
+    logdin:false,
 }
 
-console.log(user.email);
+console.log(Object.keys(obj33)); 
+console.log(Object.values(obj33));
+console.log(Object.entries(obj33));
+
+
+console.log(obj33.hasOwnproperty('logdin'));
+
+
