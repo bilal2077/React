@@ -87,17 +87,35 @@
 
 
 
-let obj33 = {
-    name:"usman",
-    age:19,
-    logdin:false,
+// let obj33 = {
+//     name:"usman",
+//     age:19,
+//     logdin:false,
+// }
+
+// console.log(Object.keys(obj33)); 
+// console.log(Object.values(obj33));
+// console.log(Object.entries(obj33));
+
+
+// console.log(obj33.hasOwnproperty('logdin'));
+
+// let course = {
+//     coursename: "js",
+//     price :"199",
+//     courseinstructor:"hitesh"
+// }
+
+// // course.courseinstructor
+
+//  let {courseinstructor}= course
+
+//  console.log(courseinstructor);
+ 
+
+
+{
+    "name": "biall",
+    "coursename": "j in hundi",
+    "price": "100"
 }
-
-console.log(Object.keys(obj33)); 
-console.log(Object.values(obj33));
-console.log(Object.entries(obj33));
-
-
-console.log(obj33.hasOwnproperty('logdin'));
-
-
