@@ -114,8 +114,8 @@
  
 
 
-{
-    "name": "biall",
-    "coursename": "j in hundi",
-    "price": "100"
-}
+// {
+//     "name": "biall",
+//     "coursename": "j in hundi",
+//     "price": "100"
+// }
