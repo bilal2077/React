@@ -60,13 +60,26 @@ function logiinUserMassage (username){
 
 
 let user ={
-   name:"usman",
+   username:"USMAN",
    price: 199
 }
 
-function nameandprice(anyobject) {
-   return `Hello ${anyobject.name} Your price is ${anyobject.price}`
+function nameandprice(any) {
+   return `hi ${any.username} Your price is ${any.price}`
    
 }
 
-nameandprice(user)
+console.log(nameandprice(user));
+
+
+
+
+
+
+let arr = [100,200,300,400,500,600]
+
+function Array(Array1){
+   return Array1[1]
+}
+
+console.log(Array(arr));
