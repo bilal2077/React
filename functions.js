@@ -59,27 +59,27 @@ function logiinUserMassage (username){
 
 
 
-let user ={
-   username:"USMAN",
-   price: 199
-}
+// let user ={
+//    username:"USMAN",
+//    price: 199
+// }
 
-function nameandprice(any) {
-   return `hi ${any.username} Your price is ${any.price}`
+// function nameandprice(any) {
+//    return `hi ${any.username} Your price is ${any.price}`
    
-}
+// }
 
-console.log(nameandprice(user));
-
-
+// console.log(nameandprice(user));
 
 
 
 
-let arr = [100,200,300,400,500,600]
 
-function Array(Array1){
-   return Array1[1]
-}
 
-console.log(Array(arr));
+// let arr = [100,200,300,400,500,600]
+
+// function Array(Array1){
+//    return Array1[1]
+// }
+
+// console.log(Array(arr));
