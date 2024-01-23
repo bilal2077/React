@@ -34,14 +34,14 @@
 
 
 
-function logiinUserMassage (username){
-   if (username === undefined) {
-      console.log("Pleas Enter your Nmae");
-      return
-   }
-  return  `${username} just logged in`
+// function logiinUserMassage (username){
+//    if (username === undefined) {
+//       console.log("Pleas Enter your Nmae");
+//       return
+//    }
+//   return  `${username} just logged in`
 
-}
+// }
 
 
 // let log = logiinUserMassage()
