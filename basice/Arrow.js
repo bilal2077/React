@@ -48,3 +48,21 @@
 
 // let chai = (num1 , num2) =>   num1 + num2
 // console.log(chai(8,7));
+
+
+
+
+// ++++++++++++++++++++++++++ IIFE +++++
+
+
+
+(function  usman (){
+   //nmae iife
+    console.log("USMAN");
+})();
+
+
+
+(  (NAME) => {
+    console.log(`ih ${NAME}`);
+})("bialal")

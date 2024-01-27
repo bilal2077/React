@@ -53,7 +53,10 @@ for (let index = 1; index <= 20; index++) {
 
 
 let q = 0;
- while (q > 10) {
+ while (q >= 10,q++) {
+
     console.log(q);
+    
  }
-console.log("usmna");
+//  console.log("usman");
+
