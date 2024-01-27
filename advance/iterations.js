@@ -24,7 +24,7 @@ for (let i = 1; i <= 10 ; i++) {
 }
 
 
-}
+
 
 
 // break and continue
@@ -48,3 +48,12 @@ for (let index = 1; index <= 20; index++) {
 }
 
 
+// ++++++++++++++++++++ WHILE LOOOOOOOOOOOOOOOOOOOOOOOOOOP ++++++++++++++++++++++++++++
+
+
+
+let q = 0;
+ while (q > 10) {
+    console.log(q);
+ }
+console.log("usmna");
