@@ -49,14 +49,29 @@ for (let index = 1; index <= 20; index++) {
 
 
 // ++++++++++++++++++++ WHILE LOOOOOOOOOOOOOOOOOOOOOOOOOOP ++++++++++++++++++++++++++++
+// let index = 10;
 
-
-
-let q = 0;
- while (q >= 10,q++) {
-
-    console.log(q);
+// while ( index <= 100) {
     
- }
-//  console.log("usman");
+//     console.log(index);
+//      index= index + 10
+// }
 
+
+
+
+// let arr =["bilal","usman","saad"]
+   
+
+// let a = 0;
+
+// while (a < arr.length){
+//        console.log(`velue is ${arr[a]}`);
+//        a = a + 1
+// }
+
+do{
+
+}while (condition) {
+    
+}
