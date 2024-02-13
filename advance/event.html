@@ -19,14 +19,64 @@
    </div>
 </body>
 <script>
-    // document.getElementById('owl').onclick =  function(){
-    //     alert("owl clicked")
-    // }
+
+//library
+    //attachEvent()
+    // jQuery - on
+
+
+// event properties
+    // tye, timestamp, defautprevented
+    // target, to Element, srcElement, currentTarget,
+    // clientX, clientY, scrrnX, screenY
+    // altkey, ctrlkey, shiftkey, keycode,
+
+
+
+// stopPropagation()
+    document.getElementById('images').addEventListener('click',function (e) {
+    //    console.log(" activate  inmage");
+    },false)// true
+    document.getElementById('owl').addEventListener('click',function (e) {
+    //    console.log("owl");
+      e.stopPropagation()
+    },false)// true
+
+
+// preventDefault()
+    document.getElementById('google').addEventListener('click', function (e) {
+        e.preventDefault();
+        // console.log("stop defalt");
+
+        e.stopPropagation()
+})
 
 
     document.getElementById('owl').addEventListener('click',function () {
         alert("hello addEventListener againe")
     })
 
+<<<<<<< HEAD
     </script>
 </html>
+=======
+
+    document.querySelector('#images').addEventListener('click', function (e) {
+        console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG') {
+            let removeIt = e.target.parentNode
+                 removeIt.remove()
+        }
+        let removeIt = e.target.parentNode
+        removeIt.remove()
+      
+    })
+
+
+
+
+
+
+</script>
+</html>41
+>>>>>>> ef0e018180ff7507c22ea285f086fd72f5ddc1b1
