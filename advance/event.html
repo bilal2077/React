@@ -36,7 +36,7 @@
 // stopPropagation()
     document.getElementById('images').addEventListener('click',function (e) {
     //    console.log(" activate  inmage");
-    },false)// true
+    // },false)// true
     document.getElementById('owl').addEventListener('click',function (e) {
     //    console.log("owl");
       e.stopPropagation()
@@ -57,6 +57,10 @@
     })
 
 
+    </script>
+</html>
+
+
     document.querySelector('#images').addEventListener('click', function (e) {
         console.log(e.target.tagName);
         if (e.target.tagName === 'IMG') {
@@ -74,4 +78,5 @@
 
 
 </script>
-</html>41
+</html>
+
