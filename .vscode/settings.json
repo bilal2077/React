@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "Welcommasseage"
+    ],
+    "cSpell.enableFiletypes": [
+        "groovy"
     ]
 }
