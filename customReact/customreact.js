@@ -15,7 +15,7 @@ function customRender(reactElement, container) {
      domElement.setAttribute(prop, reactElement.props[prop])
    
     }
-    container.appendChild(domElement);fffrf
+    container.appendChild(domElement);
 
 }
 

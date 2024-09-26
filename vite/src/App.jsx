@@ -6,7 +6,6 @@ function App() {
     <>
     <Chai/>
     <h1>hello Vite</h1>
-    <p>test  pera</p>
     </>
   )
 }
